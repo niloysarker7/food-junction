@@ -3,7 +3,7 @@ body{
     margin: 0%;
 }
 .color-gray{
-    color: gray;
+    color: rgb(114, 114, 114);
 }
 .color-orange{
     color: orange;
@@ -19,6 +19,7 @@ body{
 }
 .flex{
     display: flex;
+    margin-bottom: 80px;
 }
 #flex{
     margin-top: 15%;
@@ -40,7 +41,7 @@ p{
     color: white;
     font-weight: 700;
     border-radius: 20px;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 10px gray;
 }
 .bg-image{
     background-image: url( food-junction-elements/images/shapes/Frame\ 59.jpg);
@@ -60,10 +61,60 @@ p{
 }
 .button-contact{
     text-decoration: none;
-    background-image: linear-gradient( rgb(249, 79, 255), rgb(255, 95, 183));
+    background-image: linear-gradient( rgb(247, 0, 255), rgb(255, 95, 183));
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+.hp2{
+    text-align: center;
+}
+#recipes{
+    padding-top: 5%;
+}
+.recipes{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 30px;
     box-shadow: 10px 10px 40px gray;
+}
+#recipe1 img{
+    width: 100%;
+}
+#recipe2 img{
+    width: 100%;
+}
+#recipe3 img{
+    width: 100%;
+}
+.menu{
+    padding-top: 5%;
+}
+.info{
+    width: 85%;
+    padding: 10px;
+    margin-left: 7%;
+    border-radius: 30px;
+    margin-top: 10%;
+    box-shadow: 10px 10px 40px gray;
+}
+.social{
+    padding-left: 12%;
+}
+#social{
+    text-align: center;
+}
+#font{
+    font-size: 40px;
+    text-align: center;
+}
+#footer{
+    padding: 2%;
+    margin: 0px;
+    text-align: center;
+    background-color: black;
 }
