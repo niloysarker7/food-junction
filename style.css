@@ -10,32 +10,60 @@ body{
 }
 .div-one{
     width: 80%;
-    padding-left: 8%;
+    padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
-    gap: 20px;
 }
 .div-one img{
-    width: 100%;
+    width: 120%;
 }
 .flex{
     display: flex;
-    margin-bottom: 80%;
 }
-#hp{
+#flex{
+    margin-top: 15%;
+}
+.hp{
     padding-top: 8%;
 }
+
 h1{
     font-size: 50px;
 }
 p{
     font-size: 20px;
 }
-.link-button{
+.button-order{
     text-decoration: none;
     background-image: linear-gradient( tomato, orange);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.bg-image{
+    background-image: url( food-junction-elements/images/shapes/Frame\ 59.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 40px gray;
+}
+.div-two{
+    width: 40%;
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.div-two img{
+    width: 60%;
+    padding-left: 10%;
+}
+.button-contact{
+    text-decoration: none;
+    background-image: linear-gradient( rgb(249, 79, 255), rgb(255, 95, 183));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
 }
